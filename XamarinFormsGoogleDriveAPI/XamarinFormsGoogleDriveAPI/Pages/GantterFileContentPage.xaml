@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xamarinForms:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xamarinFormsGoogleDriveApi="clr-namespace:XamarinFormsGoogleDriveAPI.Pages;assembly=XamarinFormsGoogleDriveAPI"
+             xmlns:xamarinForms="clr-namespace:BottomNavigationBar.XamarinForms;assembly=BottomNavigationBar.XamarinForms"
+             Title="Drive App"
+             Icon = "icon.png"
+             FixedMode="True"
+             BarTheme="Light"
+             LayoutChanged="GDriveFileContentPage_OnLayoutChanged"
+             x:Class="XamarinFormsGoogleDriveAPI.Pages.GDriveFileContentPage">
+
+  <xamarinFormsGoogleDriveApi:FilePage Title="Tasks" Icon="ic_autorenew">
+    <ContentPage.ToolbarItems>
+      <!--<ToolbarItem Icon="ic_autorenew" Order="Secondary" Text="Hello"/>
+      <ToolbarItem Icon="ic_autorenew" Order="Default" Text="Hello"/>-->
+    </ContentPage.ToolbarItems>
+  </xamarinFormsGoogleDriveApi:FilePage>
+  
+  <ContentPage Title="Resources" Icon="ic_autorenew" >
+    <ContentPage.Content>
+      <Label Text="Hello"></Label>
+    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+      <!--<ToolbarItem Icon="ic_autorenew" Order="Secondary" Text="Hello"/>
+      <ToolbarItem Icon="ic_autorenew" Order="Default" Text="Hello"/>-->
+    </ContentPage.ToolbarItems>
+  </ContentPage >
+  
+  <ContentPage Title="Calendar" Icon="ic_autorenew">
+    <ContentPage.Content>
+      <Label Text="Hello"></Label>
+    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+      <!--<ToolbarItem Icon="ic_autorenew" Order="Secondary" Text="Hello"/>
+      <ToolbarItem Icon="ic_autorenew" Order="Default" Text="Hello"/>-->
+    </ContentPage.ToolbarItems>
+  </ContentPage>
+  
+  <ContentPage Title="Risk" Icon="ic_autorenew">
+    <ContentPage.Content>
+      <Label Text="Hello"></Label>
+    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+      <!--<ToolbarItem Icon="ic_autorenew" Order="Secondary" Text="Hello"/>
+      <ToolbarItem Icon="ic_autorenew" Order="Default" Text="Hello"/>-->
+    </ContentPage.ToolbarItems>
+  </ContentPage>
+
+</xamarinForms:BottomBarPage>

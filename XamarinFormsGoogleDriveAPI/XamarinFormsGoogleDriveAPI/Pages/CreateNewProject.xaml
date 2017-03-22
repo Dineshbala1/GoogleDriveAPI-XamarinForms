@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="XamarinFormsGoogleDriveAPI.Pages.CreateNewProject">
+  <pages:PopupPage.Animation>
+    <animations:ScaleAnimation
+      PositionIn="Center"
+      PositionOut="Center"
+      ScaleIn="1.2"
+      ScaleOut="0.8"
+      DurationIn="400"
+      DurationOut="300"
+      EasingIn="SinOut"
+      EasingOut="SinIn"
+      HasBackgroundAnimation="True"/>
+  </pages:PopupPage.Animation>
+  <pages:PopupPage.Content>
+    <Frame VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Margin="5">
+      <StackLayout BackgroundColor="White" Orientation="Vertical">
+        <Grid BackgroundColor="Transparent">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+          <Label Grid.Row="0" FontAttributes="Bold" Margin="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="16" Text="Name your Project">
+            <Label.LineBreakMode>
+              <OnPlatform x:TypeArguments="LineBreakMode" Android="NoWrap" iOS="TailTruncation"/>
+            </Label.LineBreakMode>
+          </Label>
+          <BoxView Grid.Row="1" Margin="-10,0,-10,0" Color="Gray" HeightRequest="1"/>
+        </Grid>
+        <Entry Placeholder="Enter project name" ></Entry>
+        <Button Text="SAVE" HorizontalOptions="Center" Margin="3" TextColor="White" BackgroundColor="Green"></Button>
+      </StackLayout>
+    </Frame>
+  </pages:PopupPage.Content>
+</pages:PopupPage>

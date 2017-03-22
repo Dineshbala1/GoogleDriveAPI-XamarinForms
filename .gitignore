@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/screenshots
+/XamarinFormsGoogleDriveAPI/XamarinFormsGoogleDriveAPI/obj/Debug
+/XamarinFormsGoogleDriveAPI/XamarinFormsGoogleDriveAPI/bin/Debug
+/XamarinFormsGoogleDriveAPI/XamarinFormsGoogleDriveAPI.Droid/obj/Debug
+/XamarinFormsGoogleDriveAPI/XamarinFormsGoogleDriveAPI.Droid/bin/Debug
+/XamarinFormsGoogleDriveAPI.Model/obj
+/XamarinFormsGoogleDriveAPI.Model/bin
+/XamarinFormsGoogleDriveAPI.Services/obj
+/XamarinFormsGoogleDriveAPI.Services/bin
+/XamarinFormsGoogleDriveAPI.Model/BusinessModel/RealtimeModel.cs
+/XamarinFormsGoogleDriveAPI.Model/BusinessModel/googldrive-jsonmodel-details.txt
+/XamarinFormsGoogleDriveAPI.Model/DataModel/RootObject.cs

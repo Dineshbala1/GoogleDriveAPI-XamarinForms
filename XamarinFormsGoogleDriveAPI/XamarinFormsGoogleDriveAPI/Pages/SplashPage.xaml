@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             x:Class="XamarinFormsGoogleDriveAPI.Pages.SplashPage">
+  <StackLayout>
+  <Image Source="GDrivecloudlogo.png" HorizontalOptions="CenterAndExpand" Margin="20" HeightRequest="150" WidthRequest="300" Aspect="AspectFit"/>
+  <ActivityIndicator HeightRequest="50" WidthRequest="50" Color="Red" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsRunning="True" IsVisible="True"/>
+  </StackLayout>
+</ContentPage>
